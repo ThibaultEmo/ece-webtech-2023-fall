@@ -54,10 +54,10 @@ cd ~/path/to/your-root-project-directory
 
 ### 2. Create a project folder (easy level)
 
-Choose a name for your project (for example, `my-project`) and create a directory:
+Create a directory (for example, `ece-webtech-<YOUR_GROUP_NAME>`):
 
 ```bash
-mkdir my-project
+mkdir ece-webtech-gr01-03 # Note! use your group number here
 ```
 
 > **Note!** Don't put spaces (` `) ether in folder names or file names. Otherwise, you will have to use escape characters when navigating to them. Use the "kebab-case" naming convention by separating words with dashes (`-`).
