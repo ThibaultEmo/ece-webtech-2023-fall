@@ -47,9 +47,12 @@ Windows users with not enough RAM (8GB of RAM or less) can choose to set up thei
 
 Set up the Linux machine including an IDE, and Linux tools, ... Don't install your IDE on your Windows host machine.
 
+You can reference this tutorial of [installing Ubuntu and VirtualBox](https://ubuntu.com/tutorials/how-to-run-ubuntu-desktop-on-a-virtual-machine-using-virtualbox#1-overview).
+
 ## Part 4. Node.js installation (medium level)
 
-Install Node.js with n-install
+Install Node.js with n-install:
+
 ```
 sudo apt update
 sudo apt install build-essential git curl
