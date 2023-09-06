@@ -27,7 +27,7 @@ This work is a part of the continuous assessment of this course. It will be the 
 
 ## Part 1. Working groups (easy level)
 
-Team yourself with another colleague. Only groups of 3 will be created. In the event of an odd number of students, one and only one group of three people is created.
+Team yourself with another colleagues. Only groups of 3 will be created. Choose the colleagues with the same level of coding skills.
 
 Create a private Git repository on GitHub for your group. Name it `ece-webapp-{alastname}-{blastname}`, where lastname is sorted alphanumerically. Be ready to share the link during the course.
 
