@@ -47,13 +47,15 @@ Before going with a VM or a dual-boot, you have to pick up a [Linux distro](http
 - [Arch Linux](https://archlinux.org/), hard
 - [NixOS](https://nixos.org/), hard
 
+### Dual-boot set-up (recommended)
+
+Dual boot is the easiest way to get started with Linux. It allows you to keep your current OS and switch between it and Linux at boot time. It is also the only way to get the best performance out of your hardware.
+
+- [Dual boot Windows 10 or 11 / Ubuntu](https://lecrabeinfo.net/installer-ubuntu-22-04-lts-en-dual-boot-avec-windows.html) (fr)
+
 ### Virtual machine set-up
 
 The following tutorial are provided for Ubuntu, they shall apply for other distro as well:
 
 - [VM using VirtualBox](https://ubuntu.com/tutorials/how-to-run-ubuntu-desktop-on-a-virtual-machine-using-virtualbox#1-overview) (Windows, Mac, Linux)
 - [VM using Hyper-V](https://phoenixnap.com/kb/hyper-v-ubuntu) (Windows)
-
-### Dual-boot set-up
-
-- [Windows 10 & 11](https://lecrabeinfo.net/installer-ubuntu-22-04-lts-en-dual-boot-avec-windows.html) (use an adblocker). This tutorial is provided for Ubuntu, do not forget to disable the secure boot from your BIOS if using another non compatible distro.
