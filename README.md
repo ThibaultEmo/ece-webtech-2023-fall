@@ -32,7 +32,7 @@ Each student group is associated (access is individually granted to [all student
 - [Ing4 SI 04](https://github.com/adaltas/ece-webtech-2023-fall-gr04/)
 
 The repositories use Git tags to make it easy to navigate:
-- `labX` - contains prerequisites for the lab X.
+- `labX-initial` - contains prerequisites for the lab X.
 - `labX-corrections` - contains corrections for the lab X.
 
 They use the [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) specification with clean separation of code changes. Students are encouraged to carefully read and understand all commits.
