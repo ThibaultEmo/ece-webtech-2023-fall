@@ -232,7 +232,7 @@ An object is returned with the possibility to register callback functions on suc
 
 ```js
 function login (username, password) {
-  return new Promise(resolve, reject) => {
+  return new Promise((resolve, reject) => {
     db
     .query(`SELECT ${username} FROM users WHERE password = '${password}'`) // don't ever do this
     .execute( (err, results) => {
