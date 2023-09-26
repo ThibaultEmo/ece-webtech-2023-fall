@@ -21,7 +21,9 @@ Learn Express to build web API.
 
 ## Prerequisites
 
-Ensure our project adheres to community good practices. This includes:
+Tag your latest commit from the previous lab with a name like `lab2` to help navigate your project. Don't forget to push the tag.
+
+Ensure your project adheres to community good practices. This includes:
 
 - using a Version Control System (VCS) such as Git
 - writing a README.md to communicate our project goal, API, usage and status
@@ -29,7 +31,7 @@ Ensure our project adheres to community good practices. This includes:
 - communicating comprehensive and useful Git commits following the [Conventional Commits](https://www.conventionalcommits.org) specification
 - directory layout (eg: `src`, `content`, ...)
 
-Continue with the existing code base from the completed previous lab. In case you didn't finish it, clone the [corrections repository](../../../../README.md#correction-repositories-and-supporting-source-code), check out the corresponding `labX` tag and start from there. Later on, you must complete the missing lab by referring to the corrections.
+Continue with the existing code base from the completed previous lab. In case you didn't finish it, clone the [corrections repository](../../README.md#correction-repositories-and-supporting-source-code), check out the corresponding `lab2-initial` tag and start from there. Later on, you must complete the missing lab by referring to the corrections.
 
 ## Part 1. Refactor your previous application to use Express
 

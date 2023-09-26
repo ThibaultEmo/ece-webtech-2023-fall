@@ -20,7 +20,7 @@ Using React together with Next.js gives you building blocks to create web applic
 
 ## Prerequisites
 
-Back up the previous labs in your repository under the `labs` folder.
+Tag your latest commit from the previous lab with a name like `lab3` to help navigate your project. Don't forget to push the tag.
 
 ## Part 1. Initialize the Next.js application (easy level)
 

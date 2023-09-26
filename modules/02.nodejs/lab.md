@@ -423,6 +423,7 @@ Add a `README.md` file with a title, an introduction, running/usage instructions
 ### 7.2. Push it to GitHub (medium level)
 
 Commit your changes, use your **PRIVATE** group repository on GitHub, and push it.
+Create a tag `lab2` for the last commit and also push it.
 
 ## Part 8. Cultivate yourself
 
