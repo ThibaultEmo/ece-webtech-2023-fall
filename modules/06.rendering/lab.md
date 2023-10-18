@@ -24,6 +24,10 @@ In Next.js, using the appropriate data fetching strategy is key. Its impacts inc
 2. Build application (easy level)
 3. Create profile API and use it (hard level)
 
+## Prerequisites
+
+Implementation of fetching strategies varies between App and Pages routers. Instructions below are given for the [Pages router](https://nextjs.org/docs/pages/building-your-application/data-fetching). If you use App router, follow [this documentation](https://nextjs.org/docs/app/building-your-application/data-fetching).
+
 ## Part 1. Use SSG (medium level)
 
 Revit the `/pages/articles.js` page. It is currently implemented with CSR. At the moment, the generated page doesn't contain the articles at build time, including the link to individual article pages. The search engine will not be able to index the article pages.
@@ -33,6 +37,8 @@ Re-implement the page to use SSG by removing the `useEffect` function and export
 ## Part 2. Build application (easy level)
 
 [Build your application](https://nextjs.org/docs/deployment) and start it. Find a method to validate that the articles are generated at build time.
+
+You might have errors on `npm run build` related to hardcoded URL `http://localhost:3000/` for fetching data. If so, skip building application, we will do it again at the end of the course.
 
 ## Part 3. Create profile API and use it (hard level)
 
