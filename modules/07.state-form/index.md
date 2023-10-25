@@ -4,9 +4,9 @@ duration: 1h
 
 # State and form management | in React
 
-## About state
+## About the state
 
-* State maintain consistent information over time, inside an application, between multiple pages,...
+* State is a data structure containing information describing the application at any given point in time
 * One of the hardest challenges, if not the hardest challenge, in programming
   * Multi-threading and memory management
   * Session management across multiple web pages
@@ -150,14 +150,20 @@ const LoggedIn = () => {
   return (
     <div>
       Welcome {user}!
-      <button onClick={()=>{ logout() }}>Logout</button>
+      <div>
+        <button onClick={()=>{ logout() }}>Logout</button>
+      </div>
     </div>
   )
 }
 
 export default () => {
   const {user} = useContext(Context)
-  return user ? <LoggedIn /> : <LoggedOut />
+  return (
+    <div>
+      {user ? <LoggedIn /> : <LoggedOut />}
+    </div>
+  )
 }
 ```
 
