@@ -19,9 +19,10 @@ The Supabase platform helps developers in the creation of modern apps. Its core 
 4. Fetch data from Supabase (easy level)
 5. Insert data into Supabase (medium level)
 6. Row-level security (medium level)
-7. Upgrade to the latest Next.js and React (hard level)
 
 ## Part 1. Supabase installation (medium level)
+
+> Note! The instructions below could contain legacy. It is recommended to use [this guide of local development with Supabase](https://supabase.com/docs/guides/cli/local-development).
 
 Read the official [self-hosting with Docker](https://supabase.com/docs/guides/hosting/docker) documentation.
 
@@ -63,6 +64,8 @@ Write a `select` query to return all the records stored inside the `contacts` ta
 
 ## Part 3. Next.js integration (easy level)
 
+> Note! The instructions below could contain legacy. For integrating Supabase to Next.js application with the old Pages router you can [follow this guide](https://supabase.com/docs/guides/auth/auth-helpers/nextjs-pages).
+
 Read the official [Supabase Next.js guide](https://supabase.com/docs/guides/with-nextjs).
 
 1. Go to the project website
@@ -79,10 +82,12 @@ Read the official [Supabase Next.js guide](https://supabase.com/docs/guides/with
    ```
    > Note, the official instructions are different. It applies to managed Supabase instances. Also, don't modify the `./styles/globals.css` file, keep the one you have already created.
 
-5. Edit the `./pages/_app.js` file following the documentation
+5. Edit the `./pages/_app.js` file [following the documentation](https://supabase.com/docs/guides/auth/auth-helpers/nextjs-pages)
 6. In the `./pages/admin/contacts.js` page, uncomment the import of `@supabase/auth-helpers-react`, the usage of `useSupabaseClient`, and the `useEffect` function. The information present in the `contacts` table must appear on the page.
 
 ## Part 4. Fetch data from Supabase (easy level)
+
+> Note! If you use App router of Next.js, you must create your routes accordingly.
 
 Implement a REST API query to fetch a record from the database.
 
@@ -91,6 +96,8 @@ The page to display a `contacts` record is located in `./pages/admin/contacts/[i
 All there is to do is to implement the `supabase.from('contacts')...` request to fetch a single record and call `setContact` with the returned data. It is similar to `./pages/admin/contacts.js`. Instead of returning an array of `contacts` records, it returns the record matching the provided `id`.
 
 ## Part 5. Insert data into Supabase (medium level)
+
+> Note! If you use App router of Next.js, you must create your routes accordingly.
 
 Implement a REST API query to insert records into the database.
 
@@ -105,9 +112,3 @@ Create a policy that allows anonymous users to insert `contacts` records and whi
 Check that anonymous can submit new contact information from `./pages/contact.js`.
 
 Also, confirm that no record is displayed in `./pages/admin/contacts.js`. Disabling row-level security show display the records once again.
-
-## Part 7. Upgrade to the latest Next.js and React (hard level)
-
-[Version 13 of Next.js](https://nextjs.org/blog/next-13) was published end of October. It comes with many interesting additions. Upgrade to the latest version and see how that work. You can use [npm-check-updates](https://www.npmjs.com/package/npm-check-updates) which provides a handy command `ncu -u`.
-
-It comes with the latest [React 18 features](https://reactjs.org/blog/2022/03/29/react-v18.html) as well.
