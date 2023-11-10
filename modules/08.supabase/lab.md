@@ -20,6 +20,10 @@ The Supabase platform helps developers in the creation of modern apps. Its core 
 5. Insert data into Supabase (medium level)
 6. Row-level security (medium level)
 
+## Prerequisites
+
+Checkout `lab8-initial` tag in your [corrections repository](../../../../README.md#correction-repositories-and-supporting-source-code), it contains necessary imports for the further steps. Understand them by reading the latest commit, and import the changes to your application (you need the files related to the "contacts" pages).
+
 ## Part 1. Supabase installation (medium level)
 
 > Note! The instructions below could contain legacy. It is recommended to use [this guide of local development with Supabase](https://supabase.com/docs/guides/cli/local-development).
@@ -83,7 +87,7 @@ Read the official [Supabase Next.js guide](https://supabase.com/docs/guides/with
    > Note, the official instructions are different. It applies to managed Supabase instances. Also, don't modify the `./styles/globals.css` file, keep the one you have already created.
 
 5. Edit the `./pages/_app.js` file [following the documentation](https://supabase.com/docs/guides/auth/auth-helpers/nextjs-pages)
-6. In the `./pages/admin/contacts.js` page, uncomment the import of `@supabase/auth-helpers-react`, the usage of `useSupabaseClient`, and the `useEffect` function. The information present in the `contacts` table must appear on the page.
+6. In the `./pages/admin/contacts.js` page (the supporting code is in your correction repository), uncomment the import of `@supabase/auth-helpers-react`, the usage of `useSupabaseClient`, and the `useEffect` function. The information present in the `contacts` table must appear on the page.
 
 ## Part 4. Fetch data from Supabase (easy level)
 
