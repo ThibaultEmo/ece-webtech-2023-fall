@@ -15,13 +15,13 @@ Using OAuth2 and OpenID Connect, we don't have to manage the security endpoints 
 
 ## Tasks
 
-1. Activate Supabase [Auth UI](https://supabase.com/docs/guides/auth/auth-helpers/auth-ui) authentication (medium level)
+1. Activate Supabase Auth UI authentication (medium level)
 2. Learn OAuth and OpenID Connect concepts (easy level)
 3. Pass the OAuth tutorial (medium level)
 4. Integration of OAuth with Supabase (hard level)
 5. Bonus: Dex in Docker Compose (medium level)
 
-## 1. Activate Supabase [Auth UI](https://supabase.com/docs/guides/auth/auth-helpers/auth-ui) authentication (medium level)
+## 1. Activate Supabase Auth UI authentication (medium level)
 
 Supabase provides a component to handle the registration and authentication workflow.
 
