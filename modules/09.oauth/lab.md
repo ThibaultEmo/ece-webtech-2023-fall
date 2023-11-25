@@ -43,6 +43,8 @@ Read those articles carefully. You will apply the steps of the second article in
 
 ## 3. Pass the OAuth tutorial (medium level)
 
+> Note! This section is for a deep understanding of OAuth and is not to be committed to your repository. Do this exercise aside in some temporary direcotry.
+
 Install and start Dex on your machine. The [first article](https://www.adaltas.com/en/2020/11/17/oauth-openid-connect-intro/) covers the installation. Once Go is installed on your machine, it is as simple as:
 
 ```bash
@@ -63,6 +65,8 @@ Note, when modifying the Dex configuration file, make sure to update the "config
 ## 4. Integration of OAuth with Supabase (hard level)
 
 The [Auth UI component](https://supabase.com/docs/guides/auth/auth-helpers/auth-ui) supports the registration of OAuth providers. It integrates with common OAuth providers including Google and GitHub as well as custom providers such as our Dex server started on our host machine.
+
+> Note! All the instructions below are given for installation of Supabase with Docker Compose. If you installed it with Supabase CLI, you must follow [this instructions](https://supabase.com/docs/guides/cli/local-development#use-auth-locally).
 
 [Configure Supabase](https://github.com/supabase/gotrue#external-authentication-providers) to handle the GitHub and Dex OIDC servers.
 
