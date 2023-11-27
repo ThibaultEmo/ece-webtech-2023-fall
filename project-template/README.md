@@ -8,9 +8,15 @@
 - Vercel URL: *place your URL*
 - Supabase project URL: *place your URL*
 
-## Tasks
+## Authors
 
-### Project management
+- *Firstname LASTNAME, group*
+- *Firstname LASTNAME, group*
+- *Firstname LASTNAME, group*
+
+## Evaluation
+
+### Mandatory Tasks
 
 * **Naming convention**
   * Grade: *How many points you think you deserve*
@@ -32,8 +38,6 @@
   * Grade: *How many points you think you deserve*
   * Comments: *How did you implement the task*
   * Task feedback: *Facultative, how did you find the task (difficulty, pertinence...)*
-
-### Application development
 
 * **Home page**
   * Grade: *How many points you think you deserve*
@@ -88,7 +92,7 @@
   * Comments: *How did you implement the task*
   * Task feedback: *Facultative, how did you find the task (difficulty, pertinence...)*
 
-## Bonus
+### Bonus Tasks
 
 * ***Task title 1***   
   * Grade: *How many points you think you deserve*
@@ -97,8 +101,12 @@
   * Grade: *How many points you think you deserve*
   * Comments: *How did you implement the task*
 
-## Authors
+## Miscellaneous
 
-- *Firstname LASTNAME, group*
-- *Firstname LASTNAME, group*
-- *Firstname LASTNAME, group*
+### Course Feedback
+
+*Your feedback about the course, what you liked, what you disliked, what you missed...*
+
+### Project Reuse
+
+- [ ] We authorize the professors to use our project as an example for the next year students (facultative).
