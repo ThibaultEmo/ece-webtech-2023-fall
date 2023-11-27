@@ -1,105 +1,104 @@
 
 # Blogging application - ECE Webtech project
 
-*presentation, introduction, credits, ...*
+*introduction, pre-requisites, installation, usage...*
 
-## Production 
+## Deliverables 
 
-- Vercel URL: https://...
-- Supabase project URL: https://app.supabase.com/project/...
-
-## Usage
-
-*how to start and use the application, run the tests, ...*
-
-* Clone this repository, from your local machine:
-  ```
-  git clone ...
-  cd ...
-  ```
-* Start the the application
-  ```bash
-  cd app
-  npm install
-  npm run build
-  npm start
-  ```
-* Start Supabase
-  ```bash
-  npx supabase start
-  ```
-
-## Authors
-
-*name, email, ...*
+- Vercel URL: *place your URL*
+- Supabase project URL: *place your URL*
 
 ## Tasks
 
-**Project management:**
+### Project management
 
-* Naming convention   
-  * Self-evaluation: *place your objective evaluation*
-  * Comments: *place your comments*
-* Project structure   
-  * Self-evaluation: *place your objective evaluation*
-  * Comments: *place your comments*
-* Git   
-  * Self-evaluation: *place your objective evaluation*
-  * Comments: *place your comments*
-* Code quality   
-  * Self-evaluation: *place your objective evaluation*
-  * Comments: *place your comments*
-* Design, UX, and content   
-  * Self-evaluation: *place your objective evaluation*
-  * Comments: *place your comments*
+* **Naming convention**
+  * Grade: *How many points you think you deserve*
+  * Comments: *How did you implement the task*
+  * Task feedback: *Facultative, how did you find the task (difficulty, pertinence...)*
+* **Project structure**
+  * Grade: *How many points you think you deserve*
+  * Comments: *How did you implement the task*
+  * Task feedback: *Facultative, how did you find the task (difficulty, pertinence...)*
+* **Git usage**
+  * Grade: *How many points you think you deserve*
+  * Comments: *How did you implement the task*
+  * Task feedback: *Facultative, how did you find the task (difficulty, pertinence...)*
+* **Code quality**
+  * Grade: *How many points you think you deserve*
+  * Comments: *How did you implement the task*
+  * Task feedback: *Facultative, how did you find the task (difficulty, pertinence...)*
+* **Design, UX, and content**
+  * Grade: *How many points you think you deserve*
+  * Comments: *How did you implement the task*
+  * Task feedback: *Facultative, how did you find the task (difficulty, pertinence...)*
 
-**Application development:**
+### Application development
 
-* Home page   
-  * Self-evaluation: *place your objective evaluation*
-  * Comments: *place your comments*
-* Login and profile page   
-  * Self-evaluation: *place your objective evaluation*
-  * Comments: *place your comments*
-* New articles creation   
-  * Self-evaluation: *place your objective evaluation*
-  * Comments: *place your comments*
-* New comment creation   
-  * Self-evaluation: *place your objective evaluation*
-  * Comments: *place your comments*
-* Resource access control   
-  * Self-evaluation: *place your objective evaluation*
-  * Comments: *place your comments*
-* Article modification   
-  * Self-evaluation: *place your objective evaluation*
-  * Comments: *place your comments*
-* Article removal   
-  * Self-evaluation: *place your objective evaluation*
-  * Comments: *place your comments*
-* Comment modification   
-  * Self-evaluation: *place your objective evaluation*
-  * Comments: *place your comments*
-* Comment removal   
-  * Self-evaluation: *place your objective evaluation*
-  * Comments: *place your comments*
-* Account settings   
-  * Self-evaluation: *place your objective evaluation*
-  * Comments: *place your comments*
-* WYSIWYG integration   
-  * Self-evaluation: *place your objective evaluation*
-  * Comments: *place your comments*
-* Gravatar integration   
-  * Self-evaluation: *place your objective evaluation*
-  * Comments: *place your comments*
-* Light/dark theme   
-  * Self-evaluation: *place your objective evaluation*
-  * Comments: *place your comments*
-* Accent color selection   
-  * Self-evaluation: *place your objective evaluation*
-  * Comments: *place your comments*
+* **Home page**
+  * Grade: *How many points you think you deserve*
+  * Comments: *How did you implement the task*
+  * Task feedback: *Facultative, how did you find the task (difficulty, pertinence...)*
+* **Navigation**
+  * Grade: *How many points you think you deserve*
+  * Comments: *How did you implement the task*
+  * Task feedback: *Facultative, how did you find the task (difficulty, pertinence...)*
+* **Login and profile page**
+  * Grade: *How many points you think you deserve*
+  * Comments: *How did you implement the task*
+  * Task feedback: *Facultative, how did you find the task (difficulty, pertinence...)*
+* **Post creation and display**
+  * Grade: *How many points you think you deserve*
+  * Comments: *How did you implement the task*
+  * Task feedback: *Facultative, how did you find the task (difficulty, pertinence...)*
+* **Comment creation and display**
+  * Grade: *How many points you think you deserve*
+  * Comments: *How did you implement the task*
+  * Task feedback: *Facultative, how did you find the task (difficulty, pertinence...)*
+* **Post modification and removal**
+  * Grade: *How many points you think you deserve*
+  * Comments: *How did you implement the task*
+  * Task feedback: *Facultative, how did you find the task (difficulty, pertinence...)*
+* **Search**
+  * Grade: *How many points you think you deserve*
+  * Comments: *How did you implement the task*
+  * Task feedback: *Facultative, how did you find the task (difficulty, pertinence...)*
+* **Use an external API**
+  * Grade: *How many points you think you deserve*
+  * Comments: *How did you implement the task*
+  * Task feedback: *Facultative, how did you find the task (difficulty, pertinence...)*
+* **Resource access control**
+  * Grade: *How many points you think you deserve*
+  * Comments: *How did you implement the task*
+  * Task feedback: *Facultative, how did you find the task (difficulty, pertinence...)*
+* **Account settings**
+  * Grade: *How many points you think you deserve*
+  * Comments: *How did you implement the task*
+  * Task feedback: *Facultative, how did you find the task (difficulty, pertinence...)*
+* **WYSIWYG integration**
+  * Grade: *How many points you think you deserve*
+  * Comments: *How did you implement the task*
+  * Task feedback: *Facultative, how did you find the task (difficulty, pertinence...)*
+* **Gravatar integration**
+  * Grade: *How many points you think you deserve*
+  * Comments: *How did you implement the task*
+  * Task feedback: *Facultative, how did you find the task (difficulty, pertinence...)*
+* **Light/dark mode**
+  * Grade: *How many points you think you deserve*
+  * Comments: *How did you implement the task*
+  * Task feedback: *Facultative, how did you find the task (difficulty, pertinence...)*
 
-## Bonuses
+## Bonus
 
-* *Task title*   
-  * Self-evaluation: *place your objective evaluation*
-  * Comments: *place your comments*
+* ***Task title 1***   
+  * Grade: *How many points you think you deserve*
+  * Comments: *How did you implement the task*
+* ***Task title 2***   
+  * Grade: *How many points you think you deserve*
+  * Comments: *How did you implement the task*
+
+## Authors
+
+- *Firstname LASTNAME, group*
+- *Firstname LASTNAME, group*
+- *Firstname LASTNAME, group*
