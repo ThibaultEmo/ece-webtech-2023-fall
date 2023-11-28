@@ -1,7 +1,7 @@
 
 # Exam instructions
 
-You will receive 20 of **multiple and single choice questions** (in English or French). To prepare, you must review all of the course modules and continue working on your project for practice.
+You will receive 20 of **multiple and single choice questions** (in English). To prepare, you must review all of the course modules and continue working on your project for practice.
 
 There will be two types of questions:
 
@@ -19,7 +19,7 @@ Good luck!
 
 ## Example questions
 
-## Question 1
+### Question 1
 
 Considering the following `MyComponent` React component:
 
@@ -83,7 +83,7 @@ What is(are) correct implementation(s) to make the HTML layout like this:
   }
   ```
 
-## Question 2
+### Question 2
 
 You have the following JavaScript object:
 
@@ -118,7 +118,7 @@ Choose all possible equivalents of `const d = a.b[1].d` in order to access the `
   const [, {d}] = a.b
   ```
 
-## Question 3
+### Question 3
 
 What is(are) correct statement(s) about OAuth2 and OpenID Connect?
 
@@ -127,7 +127,7 @@ What is(are) correct statement(s) about OAuth2 and OpenID Connect?
 * [ ] C: They implements Single sign-on (SSO) for applications.
 * [ ] D: OAuth2 provides authentication.
 
-## Question 4
+### Question 4
 
 Considering a `package.json` file:
 
