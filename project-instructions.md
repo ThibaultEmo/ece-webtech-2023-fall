@@ -106,7 +106,7 @@ If any doubts, post an issue on the course GitHub repository.
   * Once a post is created, only the author can see the "edit" button, redirecting to the editing page to modify the post. The author can also remove the post.
 * **Search**
   * 6 points (hard)
-  * Create a search bar in the header allowing the user to search for posts. The search must be performed on the server-side (use the Full Text Search capabilities of Supabase).
+  * Create a search bar allowing the user to search for posts. The search must be performed on the server-side (use the Full Text Search capabilities of Supabase).
 * **Use an external API**
   * 2 points (easy)
   * Use an external API to enrich the content of your application. For example, you can use the [Unsplash API](https://unsplash.com/developers) to display a random image to illustrate your posts, fetch pokemon data from the [PokeAPI](https://pokeapi.co/), display a random quote from the [Quote Garden API](https://pprathameshmore.github.io/QuoteGarden/)...
