@@ -24,6 +24,20 @@ Consider drawing inspiration from platforms like [Medium](https://medium.com/cre
 * **Deployment**: Deploy your application on [Vercel.com](https://vercel.com) and [Supabase.com](https://supabase.com/) with a publicly accessible URL.
 * **Repository Structure**: Organize your repository as follows:
 
+  For the groupes SI gr01, gr02, gr03, and gr04:
+  
+  ```txt
+  /
+  ├── app/          # Frontend (Next.js)
+  ├── supabase/     # Supabase Docker Compose configuration
+  ├── README.md
+  ├── .gitignore
+  ├── .env.example  # Supabase example env
+  └── ...
+  ```
+
+  For the groupes SI gr05 and gr06:
+  
   ```txt
   /
   ├── client/     # Frontend (Next.js)
@@ -32,7 +46,7 @@ Consider drawing inspiration from platforms like [Medium](https://medium.com/cre
   ├── supabase/   # Supabase Docker Compose configuration
   ├── README.md
   └── .gitignore
-    ```
+  ```
 
 * **Documentation**: Your `README.md` must follow the provided [template](./project-template/README.md). In particular, it must include a self-evaluation and **concise** comments on your implementation.
 
