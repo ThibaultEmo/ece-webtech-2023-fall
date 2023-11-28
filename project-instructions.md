@@ -96,7 +96,7 @@ If any doubts, post an issue on the course GitHub repository.
   * 4 points (medium)
   * Provide a login/logout button in the header. On login, open the login page with a signin/signup form with GitHub provider using Auth component of Supabase. Persist authenticated user information in React context and display it on the profile page and the header.
 * **Post creation and display**
-  * Maximum points: 6
+  * 6 points (hard)
   * Allow the creation of post for authenticated user on your app. Open a page with a form with the post properties (`title`, `content`, `categories`, `tags`, ...). Propose to cancel or save the form, and persist the article in the database. Display the list of posts on a dedicated page. The list must be paginated and sorted by creation date. Each post must be displayed on its own page with its content and comments. Posts are public and can be accessed by anyone. Only authenticated users can create posts.
 * **Comment creation and display**
   * 4 points (medium)
