@@ -15,8 +15,7 @@ Consider drawing inspiration from platforms like [Medium](https://medium.com/cre
 
 ## Deadline
 
-> [!IMPORTANT]  
-> The due date will be announced later. Use the watch button on this page for updates.
+29 December 2023, at 23:59
 
 ## Delivery Requirements
 
