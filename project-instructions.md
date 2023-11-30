@@ -101,7 +101,7 @@ If any doubts, post an issue on the course GitHub repository.
 
 * **Home page**
   * 2 points (easy)
-  * Make the home page friendly, good-looking, informative, and with a call to action (CTA).Refer to other websites on the web to take inspiration and provide relevant information about your project. This task is mostly about content editing and design. The [Medium](https://medium.com/) or [Adaltas](https://www.adaltas.com/) homepages are good examples.  
+  * Make the home page friendly, good-looking, informative, and with a call to action (CTA). Refer to other websites on the web to take inspiration and provide relevant information about your project. This task is mostly about content editing and design. The [Medium](https://medium.com/) or [Adaltas](https://www.adaltas.com/) homepages are good examples.  
   It is recommended to prototype your design first in a graphical editor like [Figma](https://www.figma.com/) or [Gravit Designer](https://www.designer.io/en/), then code it.
 * **Navigation**
   * 2 points (easy)
@@ -129,7 +129,7 @@ If any doubts, post an issue on the course GitHub repository.
   * Make your application datas secure by default. It must use the RLS of Supabase to prevent unexpected access and intrusion attempts. Only authenticated users can create posts. A user must only gain access to its own content. The API must return the appropriate lists for the authenticated user. The HTTP response must return an appropriate HTTP response code and message.
 * **Account settings**
   * 4 points (medium)
-  * Create a dashboard for the user to modify his/her personal settings (email, name, language, profile picture...). You don't have to make these settings active, the goal is to display and load form various components type. If you do, it is part of the bonus and you must mention it in the README.
+  * Create a dashboard for the user to modify his/her personal settings (email, name, language, profile picture...). You don't have to make these settings active, the goal is to display and load form various components type. If you do, it is part of the bonus and you must mention it in the README, you can refer to [this guide of managing user data in Supabase](https://supabase.com/docs/guides/auth/managing-user-data).
 * **WYSIWYG integration**
   * 2 points (easy)
   * The `content` input fields for posts are featured with any [WYSIWYG](https://en.wikipedia.org/wiki/WYSIWYG) library to edit its content.
