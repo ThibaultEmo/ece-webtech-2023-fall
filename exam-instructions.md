@@ -17,6 +17,29 @@ During preparation, you focus on:
 
 Good luck!
 
+## FAQ
+
+### How the final grade will be calculated?
+
+`gade = (exam grade + project grade) / 2` or 50/50
+
+### How much time is given for the exam?
+
+2 hours
+
+### Will there be minus points?
+
+No
+
+### Will single choice questions be marked?
+
+Yes
+
+### How the grade for multiple choice question will be calculated?
+
+- 1 - if all correct answers are chosen
+- 0 - if any wrong/missing answer
+
 ## Example questions
 
 ### Question 1
